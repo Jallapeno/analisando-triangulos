@@ -8,4 +8,6 @@ Para entender melhor, eu criei um analisador de triângulos para facilitar o ent
 #### Requisitos:
 * Qualquer linguagem de programação (Eu utilizei o Python)
 
-```Obs.: Estarei evoluindo este projeto para um analisador de triângulos mais complexo. Por enquanto, começarei por um cálculo básico```
+```Obs.: Estarei evoluindo este projeto para um analisador de triângulos mais complexo. Por enquanto, começarei por um cálculo básico.```
+
+```Referências: https://www.stoodi.com.br/blog/matematica/triangulo/```

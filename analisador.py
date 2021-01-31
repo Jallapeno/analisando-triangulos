@@ -11,7 +11,11 @@ a = int(input('Informe o valor do lado A: '))
 b = int(input('Informe o valor do lado B: '))
 c = int(input('Informe o valor do lado C: '))
 
-if (b - c < a < b + c) and (a - c < b < a + c) and (a - b < c < a + b):
+# A linha abaixo representa o método matemático clássico para esta análise
+# if (b - c < a < b + c) and (a - c < b < a + c) and (a - b < c < a + b):
+
+# A linha abaixo representa o método prático de realizar essa análise
+if a < b + c and b < a + c and c < a + b:
     print('\nOs valores informados podem formar um triângulo.')
 else:
     print('\nOs valores informados não podem formar um triângulo!\n')
